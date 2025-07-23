@@ -1,5 +1,33 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
 }
+.card {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  margin: auto;
+  .suit{
+  font-size: 60px;
+}
+.number{
+  font-size: 50px;
+}
+
+}
+
+#topleft{
+  padding-right: 100%;
+
+}
+#bottomright{
+  padding-left: 80%;
+}
+
+
